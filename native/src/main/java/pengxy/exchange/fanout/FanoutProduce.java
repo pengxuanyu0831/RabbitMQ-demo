@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
 public class FanoutProduce {
-    public static final String EXCHANGE_NAME = "dircet_log";
+    public static final String EXCHANGE_NAME = "fanout_log";
 
     public static void main(String[] args) throws IOException, TimeoutException {
         ConnectionFactory factory = new ConnectionFactory();
